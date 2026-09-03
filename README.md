@@ -5,7 +5,10 @@ Credit goes to Grigorieff Lab!
 You can find the original source code at:  
 https://grigoriefflab.umassmed.edu/diffmap
 
-This version compiles on Linux (x86_64, aarch64) and MacOS (arm64), and works for very large volumes (1280 pixel cubes tested).
+This version compiles on Linux (x86_64, aarch64) and MacOS (arm64).
+
+It works for very large volumes (1280 pixel cubes tested).
+
 Changes were made with the help of AI.
 
 I use the executable through a bash script that takes 3 inputs:
