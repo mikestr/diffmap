@@ -9,7 +9,7 @@ pix=$3
 
 bn=$(basename $2 .mrc)
 
-diffmap_mp.exe << eof
+diffmap.exe << eof
 M
 $in1
 $in2
