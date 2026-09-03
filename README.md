@@ -1,7 +1,7 @@
 # diffmap
 Calculating difference maps of electron microscopy reconstructions.
 
-Credit goes to Grigorieff Lab
+Credit goes to Grigorieff Lab!
 You can find the original source code at:  
 https://grigoriefflab.umassmed.edu/diffmap
 
