@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# Usage diffmap map1 map2 pixelsize
+# output: map2_scaled_to_map1, diffmap
+
+in1=$1
+in2=$2
+pix=$3
+
+bn=$(basename $2 .mrc)
+
+diffmap_mp.exe << eof
+M
+$in1
+$in2
+$pix
+diff.mrc
+${bn}_scaled.mrc
+eof
+#
